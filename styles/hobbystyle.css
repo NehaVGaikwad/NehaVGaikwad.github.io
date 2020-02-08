@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Amita&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amita|Kurale&display=swap');
+body{
+ margin: 0;
+ 
+}
+a{
+  text-decoration: none;
+}
+
+/*Text*/
+.content{
+  font-weight: 600;
+  font-size: x-large;
+  max-width: 600px;
+margin: auto;
+  line-height: 2em;
+  font-family: 'Amita', cursive;
+  word-spacing: 0.1em; 
+  padding-top: 20px;
+   padding-bottom: 80px;
+   padding-left: 15px;
+   letter-spacing: 4px;   
+}
+h1{
+  text-align: center;
+  font-weight: 900;
+  font-size: 70;
+}
+/*wallpaper*/
+.wall{ 
+  width: 100%;
+  margin: 0;
+  height: 300px;   
+  box-sizing: border-box;
+  animation: slide 20s linear infinite;
+}
+@keyframes slide {
+  from { background-position: 0 0; }
+  to { background-position: -400px 0; }
+}
+/*Artical
+article{
+  white-space: pre-wrap;
+}*/
+
+/*underline*/
+h1 {   
+  font-weight:bolder;
+  line-height: 1.2em;
+  text-align: center;
+  text-decoration: none;  
+        
+  font-weight: 500;
+  
+  
+}
+
+h1:after {      
+  font-size: xx-large;
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  
+  background:#0040ff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+
+}
+h1:hover:after { 
+  width: 100%;   
+}
+/**/
+hr{
+  height: 15px; 
+  background: black; 
+ 
+}
